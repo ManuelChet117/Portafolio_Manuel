@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Calculadora Probabilística</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+     <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/proyecto1.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <section class="proyectos-contenedor">
+        <!-- Encabezado con Nav -->
+        <header class="contenedor-header">
+            {{> navbar}}
+        </header>
+
+        <!-- Resumen del Proyecto -->
+        <section id="proyectos-resumen" class="proyectos-resumen">
+            <div class="contenido-proyecto">
+                <h1 class="tituloProyecto">ADMINISTRADOR DE TAREAS</h1>
+            </div>
+        </section>
+
+        <!-- Contenido Principal -->
+        <main class="contenido-principal contenedor">
+            <section class="ficha-tecnica">
+                <h3>Ficha Técnica del Proyecto</h3>
+                <ul>
+                    <li><strong>Nombre:</strong> Aministrador de Tareas</li>
+                    <li><strong>Desarrolladores:</strong> Manuel Adrián Chet Samayoa</li>
+                    <li><strong>Lenguaje:</strong> c#</li>
+                    <li><strong>Descripción:</strong> Aplicación para la gestión de tareas, que permite a los usuarios organizar y administrar sus actividades diarias..</li>
+                </ul>
+            </section>
+
+            <section class="descripcion-proyecto">
+                <h3>¿De qué trata?</h3>
+                <p>El proyecto es una herramienta diseñada para ayudar a los usuarios a gestionar sus tareas diarias de manera efectiva, ofreciendo una interfaz intuitiva para agregar, editar y eliminar tareas.</p>
+            </section>
+
+
+            <h3>Imágenes del Proyecto</h3>
+            <ul class="galeria">
+                <li><a href="images/Administrador/1.png"><img src="images/Administrador/1.png" alt="imagen"></a></li>
+                <li><a href="images/Administrador/2.png"><img src="images/Administrador/2.png" alt="imagen"></a></li>
+                <li><a href="images/Administrador/3.png"><img src="images/Administrador/3.png" alt="imagen"></a></li>
+            </ul>
+
+            <section class="repo-video">
+                <a href="https://github.com/ManuelChet117/proyectoFinalSistemasO" class="btn-repo" target="_blank">Ir al repositorio</a>
+                <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CPVyTkJEVoo?si=pElcBNaGdMgbYfWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        {{> footer}}
+    </section>
+</body>
+</html>
